@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-image: url(image/fj3.jpg);
+    height: 100%;
+}
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+ background-color: rgb(134, 180, 43);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  li.complete {
+    background-color: #d9d9d9;
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  li button {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    background-color: #ff3838;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li button.edit {
+    background-color: #e1dede;
+    margin-right: 5px;
+  }
+  
+  li button.edit:hover {
+    background-color: #0b7dda;
+  }
+  .task-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  
+  .buttons-container {
+    display: flex;
+    gap: 5px;
+  }
+    
+  .complete {
+    text-decoration: line-through;
+  }
+  
